@@ -1,0 +1,30 @@
+{
+  "Advent of Code Day": {
+    "prefix": "advent",
+    "description": "Create a simple starter code for an advent of code day.",
+    "body": [
+      "module Advent.$1",
+      "  ( solve",
+      "  , solveExtra",
+      "  )",
+      "  where",
+      "",
+      "",
+      "import Prelude",
+      "",
+      "import Data.Either (Either(..))",
+      "",
+      "",
+      "solve :: String -> Either String String",
+      "solve input = do",
+      "  $0",
+      "  Left \"Unsolved\"",
+      "",
+      "",
+      "solveExtra :: String -> Either String String",
+      "solveExtra input = do",
+      "  Left \"Unsolved\"",
+      ""
+    ]
+  }
+}

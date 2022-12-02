@@ -3,6 +3,7 @@ module Main where
 import Prelude
 
 import Advent.Day1 as Day1
+import Advent.Day2 as Day2
 import Data.Either (Either(..), either, note)
 import Data.Map as Map
 import Data.Maybe (fromMaybe)
@@ -20,8 +21,8 @@ problems :: Map.Map String (String -> Either String String)
 problems = Map.fromFoldable
   [ Tuple "1" Day1.solve
   , Tuple "1+" Day1.solveExtra
-  -- , Tuple "2" Day2.solve
-  -- , Tuple "2+" Day2.solveExtra
+  , Tuple "2" Day2.solve
+  , Tuple "2+" Day2.solveExtra
   -- , Tuple "3" Day3.solve
   -- , Tuple "3+" Day3.solveExtra
   -- , Tuple "4" Day4.solve

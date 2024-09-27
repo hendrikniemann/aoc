@@ -7,6 +7,9 @@ import Advent.Day2 as Day2
 import Advent.Day3 as Day3
 import Advent.Day4 as Day4
 import Advent.Day5 as Day5
+import Advent.Day6 as Day6
+import Advent.Day7 as Day7
+import Advent.Day8 as Day8
 import Data.Either (Either(..), either, note)
 import Data.Map as Map
 import Data.Maybe (fromMaybe)
@@ -32,12 +35,12 @@ problems = Map.fromFoldable
   , Tuple "4+" Day4.solveExtra
   , Tuple "5" Day5.solve
   , Tuple "5+" Day5.solveExtra
-  -- , Tuple "6" Day6.solve
-  -- , Tuple "6+" Day6.solveExtra
-  -- , Tuple "7" Day7.solve
-  -- , Tuple "7+" Day7.solveExtra
-  -- , Tuple "8" Day8.solve
-  -- , Tuple "8+" Day8.solveExtra
+  , Tuple "6" Day6.solve
+  , Tuple "6+" Day6.solveExtra
+  , Tuple "7" Day7.solve
+  , Tuple "7+" Day7.solveExtra
+  , Tuple "8" Day8.solve
+  , Tuple "8+" Day8.solveExtra
   -- , Tuple "9" Day9.solve
   -- , Tuple "9+" Day9.solveExtra
   -- , Tuple "10" Day10.solve

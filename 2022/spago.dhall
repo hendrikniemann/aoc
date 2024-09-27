@@ -25,9 +25,11 @@ You can edit this file as you like.
   , "psci-support"
   , "string-parsers"
   , "strings"
+  , "stringutils"
   , "transformers"
   , "tuples"
   , "unfoldable"
+  , "unsafe-coerce"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
